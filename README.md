@@ -1,11 +1,9 @@
-######How to use this CGI
+###### Como usar este CGI
 
-Simply configure your web server to serve start.py, this is a wrapper script that goes on to configure the system environment in setEnv.sh before starting the main oracle interaction in tablespace.py. 
+Simplesmente configure seu servidor web para servir start.py, este é um script wrapper que vai configurar o ambiente do sistema em setEnv.sh antes de iniciar a interação do oracle principal em tablespace.py.
 
-This example code is just to demonstrate using cx_Oracle to connect to a Oracle database. In this example, once connected python runs an SQL query to get the table space size for all the tables within your database.
+Este código de exemplo é apenas para demonstrar o uso de cx_Oracle para se conectar a um banco de dados Oracle. Neste exemplo, uma vez conectado o python executa uma consulta SQL para obter o tamanho do espaço de tabela para todas as tabelas em seu banco de dados.
 
-######example 
-You will need to edit the files to make them specific to your site, but at the end you should be able to call the CGI via;
+###### exemplo Você precisará editar os arquivos para torná-los específicos para o seu site, mas no final deverá ser capaz de chamar o CGI via;
 
-http://< yourDomain >/start.py
-
+http: // <yourDomain> /start.py
