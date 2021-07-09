@@ -7,4 +7,6 @@ Este código de exemplo é apenas para demonstrar o uso de cx_Oracle para se con
 # exemplo 
 Você precisará editar os arquivos para torná-los específicos para o seu site, mas no final deverá ser capaz de chamar o CGI via;
 
-http://<yourDomain>/start.py
+```
+http://< yourDomain >/start.py
+```
